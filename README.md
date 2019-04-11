@@ -3,7 +3,7 @@
 version: 0.0.1
 method: GET
 ---
-## Paarameters:
+## Parameters:
 ## Query string:
 * **url** *(str)* :from which website you want text and images
 * **directory** *(str)*: new folder where you download images and
