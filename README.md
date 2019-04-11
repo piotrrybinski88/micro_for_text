@@ -8,6 +8,10 @@ method: GET
 * **url** *(str)* :from which website you want text and images
 * **directory** *(str)*: new folder where you download images and
 * **path** *(str)*: choose path where you want to save text and 
+## How to use
+```
+Open app.py in micro_for_text folder then you can use curl like in example.
+``` 
 
 ## Example on localhost to return data on screen only url parametr needed
 ```
