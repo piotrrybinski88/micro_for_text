@@ -1,0 +1,14 @@
+Serwis po podaniu url ze stroną (obsługuje tylko html), pobiera zdjęcia i tekst 
+do wybranego przez użytkownika katalogu(tworzy nowy katalog).
+Stworzyłem dwa endpointy jeden do printowania textu i linkow do obrazow 
+(rozumiem to jako zapisaywanie strony w systemie)
+Drugi endpoint służy do pobierania textu i obazkow.
+Serwis działa tak, że trzeba podać ścieżkę na dany komputer, 
+do poprawy jest to aby dane zrzucać na serwer (naprzykład dropbox, lub 
+sharepoint) co wspomogło by automatyzację procesu przez Dockera(która mi nie 
+wyszła).
+Stworzyłem Dockerfile i dockera zbudowałem image, komenda docker run z Readme 
+działa, natomiast nie mogłem się połączyć z kontenerem. 
+Czyli do poprawy zatomatyzowanie procesu przez Dockera, stworzenie większej 
+liczby testów i testów integracji, zrozumienie o co chodzi żeby zlecić 
+pobranie tekstu i obazów w systemie.
